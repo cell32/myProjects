@@ -22,7 +22,7 @@ A mix of public and private projects ranging from backend systems, data engineer
 
 > These are available by request or in demo format only.
 - **ARTHER Project** - Explored, Modeled and developed core functionality of a Hypersonic Stealth Object Tracking. Next phase is AI integration comming soon
-Key Advances:
+- Key Advances:
 Military-Grade Realism: 
     * Launch → Boost → Glide phases 
     * Plasma wake effects >20km altitude 

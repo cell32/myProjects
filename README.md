@@ -22,15 +22,16 @@ A mix of public and private projects ranging from backend systems, data engineer
 
 > These are available by request or in demo format only.
 - **ARTHER Project** - Explored, Modeled and developed core functionality of a Hypersonic Stealth Object Tracking. Next phase is AI integration comming soon
+  
 Key Advances:
 Military-Grade Realism: 
-* Launch → Boost → Glide phases 
-* Plasma wake effects >20km altitude 
-* Sensor-type specific detection 
+   * Launch → Boost → Glide phases 
+   * Plasma wake effects >20km altitude 
+   * Sensor-type specific detection 
 Scientific Validation: 
-* Quadratic rocket ascent (step^1.5) 
-* Speed-dependent confidence scaling 
-* Kalman-filtered tracking  
+   * Quadratic rocket ascent (step^1.5) 
+   * Speed-dependent confidence scaling 
+   * Kalman-filtered tracking  
 
 - **Clinical Support Tool** - Exploring both rules-based and AI-driven engines to generate diagnosis suggestions from symptom descriptions. The backend (Ollama) runs on Windows, while the frontend runs in a Python venv on WSL due to LLM integration constraints. I’ll be posting this experimental tool soon for people to try out — just for fun! 
 Rules-based engines are deterministic, auditable, and reliable for well-known, common diagnosis patterns. 

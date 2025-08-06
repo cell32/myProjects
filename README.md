@@ -45,9 +45,9 @@ So, the best architecture (especially for clinical tools) is often:
     * If no match is found via rules, call the AI.
 
 Upgraded and fully functional clinical decision support tool using rules-based/ai-based suggested treatment(s) After some research, I fine-tuned some of the inference parameters for the intended purpose of the ai_engine to achieve the following:  
-      * Reduced hallucinations, ensuring deterministic, evidence-based outputs. 
-      * Restricts suggestions to the most medically plausible options. 
-      * Guarantees reproducibility for audits.  
+   * Reduced hallucinations, ensuring deterministic, evidence-based outputs. 
+   * Restricts suggestions to the most medically plausible options. 
+   * Guarantees reproducibility for audits.  
 
 - **ai_agents_suite** - A growing suite of modular AI agents built to automate complex tasks — from customer support to intelligent trading.
     Current Modules:

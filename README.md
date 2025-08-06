@@ -21,6 +21,33 @@ A mix of public and private projects ranging from backend systems, data engineer
 ## 🔒 Private Projects (Titles Only)
 
 > These are available by request or in demo format only.
+- **ARTHER Project** - Explored, Modeled and developed core functionality of a Hypersonic Stealth Object Tracking. Next phase is AI integration comming soon
+Key Advances:
+Military-Grade Realism: 
+    * Launch → Boost → Glide phases 
+    * Plasma wake effects >20km altitude 
+    * Sensor-type specific detection 
+Scientific Validation: 
+    * Quadratic rocket ascent (step^1.5) 
+    * Speed-dependent confidence scaling 
+    * Kalman-filtered tracking 
+
+- **Clinical Support Tool** - Exploring both rules-based and AI-driven engines to generate diagnosis suggestions from symptom descriptions. The backend (Ollama) runs on Windows, while the frontend runs in a Python venv on WSL due to LLM integration constraints. I’ll be posting this experimental tool soon for people to try out — just for fun! 
+Rules-based engines are deterministic, auditable, and reliable for well-known, common diagnosis patterns. 
+    * AI models (LLMs) can handle ambiguity and edge cases but: 
+    * They may hallucinate or return non-validated diagnoses. 
+    * They are not medically certified. 
+    * They can introduce a level of uncertainty that, in a medical support tool, needs careful handling. 
+So, the best architecture (especially for clinical tools) is often: 
+    * Primary layer: rules_engine.py 
+    * Fast, Reliable and Fully explainable 
+    * Fallback layer: ai_engine.py 
+    * If no match is found via rules, call the AI.
+
+ Upgraded and fully functional clinical decision support tool using rules-based/ai-based suggested treatment(s) After some research, I fine-tuned some of the inference parameters for the intended purpose of the ai_engine to achieve the following:  
+* Reduced hallucinations, ensuring deterministic, evidence-based outputs. 
+* Restricts suggestions to the most medically plausible options. 
+* Guarantees reproducibility for audits.  
 
 - **ai_agents_suite** - A growing suite of modular AI agents built to automate complex tasks — from customer support to intelligent trading.
     Current Modules:

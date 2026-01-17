@@ -22,7 +22,7 @@ A mix of public and private projects ranging from backend systems, data engineer
 
 > These are available by request or in demo format only.
 
-- **AETHER Project** - Explored, Modeled and developed core functionality of a Hypersonic Stealth Object Tracking. Next phase is AI integration coming soon.
+- **AETHER Project** - AI-Enhanced Turbulence-Based Hypersonic & Elusive Response
 
   **Key Advances:**
   

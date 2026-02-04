@@ -36,16 +36,18 @@ A mix of public and private projects ranging from backend systems, data engineer
   - Speed-dependent confidence scaling
   - Kalman-filtered tracking
 
-- **Clinical Support Tool** - Exploring both rules-based and AI-driven engines to generate diagnosis suggestions from symptom descriptions. The backend (Ollama) runs on Windows, while the frontend runs in a Python venv on WSL due to LLM integration constraints. I'll be posting this experimental tool soon for people to try out — just for fun!
+- **Clinical Support Tool** - Exploring both rules-based and AI-driven engines to generate diagnosis suggestions from symptom descriptions. React as frontend, Python FastAPI backend. A Rules-based deterministics approach engine and a fallback AI engine, both using LLMs (Ollama). Developed in a venv on WSL-Ubuntu environment.
 
   Rules-based engines are deterministic, auditable, and reliable for well-known, common diagnosis patterns.
+
   
+  *Some context:*
   *AI models (LLMs) can handle ambiguity and edge cases but:*
   - They may hallucinate or return non-validated diagnoses.
   - They are not medically certified.
   - They can introduce a level of uncertainty that, in a medical support tool, needs careful handling.
   
-  *So, the best architecture (especially for clinical tools) is often:*
+  *So, the best architecture (especially for clinical tools) that I foloowed:*
   - Primary layer: rules_engine.py
     - Fast, Reliable and Fully explainable
   - Fallback layer: ai_engine.py
